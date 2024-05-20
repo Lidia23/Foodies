@@ -14,7 +14,16 @@ export default function MainHeader(){
                 <Image src={logoImg} alt="A plate with food on it" />
                 NextLevel Food
             </Link>
-            <NavBar />
+            <nav className={classes.nav}>
+            <ul>
+                <li>
+                    <NavBar href="/meals">Browse Meals</NavBar>
+                </li>
+                <li>
+                    <NavBar href="/community">Foodies Community</NavBar>
+                </li>
+            </ul>
+        </nav>
         </header>
         </>
     )
