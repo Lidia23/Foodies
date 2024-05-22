@@ -31,7 +31,7 @@ export default function ImagePicker({ label, name }) {
                 className={classes.input}
                 type='file'
                 id={name}
-                accept='image/png, image jepg'
+                accept='image/png image/jepg'
                 name={name}
                 ref={imageInput} //for more file upload add multiple
                 onChange={handleImageChange}
